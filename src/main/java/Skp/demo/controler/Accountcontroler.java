@@ -29,6 +29,7 @@ public class Accountcontroler {
 		return  customerepo.save(cust);
 		
 		
+		
 	}
 	@PostMapping("/insertacct")
 	public Accounts setaccont(@RequestBody Accounts acount) {
